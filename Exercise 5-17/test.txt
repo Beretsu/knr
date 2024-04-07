@@ -1,0 +1,9 @@
+Dennis PartD second 132 *readlines
+Brian PartA first 22 [tail]
+Brian PartC first 101 'Entab
+Dennis PartB second 42 {fields}
+Brian PartB First 75 /Tail/
+Dennis PartC Second 85 Fields
+Dennis PartA First 9 Readlines
+Brian PartD Second 92 en-tab
+Dennis PartA First 9 Readlinez

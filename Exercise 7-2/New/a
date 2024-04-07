@@ -1,0 +1,17 @@
+#wordbound match
+e a,._,.ieashrkxyfolucei	/* "deleting a blank doesnt change the breaking point */
+e ie eyefnndls./.,meas	/* even if there is another blank behind */
+iead aeiaei iea._		/* if blank is introduced past NSTOP (in this case 10) its ignored (no new braking point)
+
+#wordbound no match
+heal ieaae ./.,		/* introducin blank by del just on the edge of NSToP does add a new break point */
+eea enndddddddddd ./,.,._	/* could extend to infinite as long as we dont get past NSTOP cols */
+eee ddDdddddddea. ee e ./..,
+
+matching this requires a buffer that could extend to inf
+
+
+#unbound
+eeeeeeeeeeaeaaaai,._/.,	/* can introduce more chars as long as noT past NSTOP */
+
+for this we can print as we read. no need for a buf

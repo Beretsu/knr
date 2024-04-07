@@ -1,0 +1,6 @@
+I provide two solution; one mimics the unix program "fold", and the other
+is similar to "fold" but it folds after the last non-white char before the n'th
+column as opposed to folding after the last char before the n'th column.
+Both programs include an option like "fold -s". The one that mimics "fold"
+folds after the last white char before the n'th column, and the other folds
+after the last char of the last word before the n'th column.
